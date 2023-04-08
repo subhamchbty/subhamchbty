@@ -30,11 +30,12 @@ I'm a web and app developer with expertise in PHP, Laravel, JavaScript, Nodejs, 
 - Best practices for building efficient and scalable applications
 - How to create a good developer portfolio
 
-## 📫 How to reach me ...
-
-- Email: subhamchbty95@gmail.com
-- LinkedIn: https://www.linkedin.com/in/subham-chakraborty-sc/
-
 ## ⚡ Fun fact ...
 
 I enjoy watching thriller movies and learning new songs during my free time.
+
+## 📫 How to reach me ...
+
+[![Instagram Badge](https://img.shields.io/badge/-instagram-%23E4405F?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/subhamcby/)](https://www.instagram.com/your_username/)
+[![Medium Badge](https://img.shields.io/badge/-medium-%2312100E?style=flat-square&logo=medium&logoColor=white&link=https://medium.com/@subhamchbt)](https://medium.com/@your_username)
+[![LinkedIn Badge](https://img.shields.io/badge/-linkedin-%230077B5?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/subham-chakraborty-sc/)](https://www.linkedin.com/in/your_username/)
