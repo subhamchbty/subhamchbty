@@ -40,4 +40,4 @@ I enjoy watching thriller movies and learning new songs during my free time.
 [![Medium Badge](https://img.shields.io/badge/-medium-%2312100E?style=flat-square&logo=medium&logoColor=white&link=https://medium.com/@subhamchbt)](https://medium.com/@your_username)
 [![LinkedIn Badge](https://img.shields.io/badge/-linkedin-%230077B5?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/subham-chakraborty-sc/)](https://www.linkedin.com/in/your_username/)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=subhamchbty)](https://github.com/anuraghazra/github-readme-stats)
+[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=subhamchbty)](https://github.com/anuraghazra/github-readme-stats)
