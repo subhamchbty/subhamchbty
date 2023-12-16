@@ -1,4 +1,5 @@
 # Hi there, I'm [Subham Chakraborty](https://subhamchbty.github.io) 👋
+Email: [subhamchakraborty81@gmail.com](mailto:subhamchakraborty81@gmail.com)
 
 I'm a web and app developer with expertise in PHP, Laravel, JavaScript, Nodejs, Reactjs, React Native, Nextjs, Vuejs, Html, Css, MySQL, MongoDB, and Firebase. I am passionate about creating unique and efficient web and mobile applications.
 
