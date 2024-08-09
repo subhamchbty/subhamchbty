@@ -29,7 +29,7 @@ I'm open to collaborating on open-source web development projects and building a
 
 - Web development best practices
 - Efficient and scalable application architecture
-- Developer portfolio creation
+- Making simpler solutions
 
 ## Connect
 
