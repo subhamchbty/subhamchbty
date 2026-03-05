@@ -1,15 +1,18 @@
 # Subham Chakraborty
 
-Web and app developer specializing in PHP, JavaScript, and related frameworks.
+Lead Software Developer at Voyantt Consultancy Services LLP | SDE | Cloud Architect
+
+Full-stack web developer with 5+ years of experience, specializing in PHP, JavaScript, and related frameworks.
 
 [Website](https://subhamchakraborty.com) | [Email](mailto:subhamchakraborty81@gmail.com)
 
 ## Skills
 
-- **Languages:** PHP, JavaScript
+- **Languages:** PHP, JavaScript, Python
 - **Frameworks:** Laravel, Node.js, React, React Native, Next.js, Vue.js
 - **Databases:** MySQL, MongoDB, Firebase
 - **Frontend:** HTML5, CSS3, SASS
+- **Cloud:** AWS
 - **Tools:** Git
 
 ## Current Projects
@@ -19,7 +22,8 @@ Web and app developer specializing in PHP, JavaScript, and related frameworks.
 
 ## Learning
 
-- AWS services for web applications
+- Python
+- AWS services for cloud architecture
 
 ## Collaboration
 
@@ -29,6 +33,7 @@ I'm open to collaborating on open-source web development projects and building a
 
 - Web development best practices
 - Efficient and scalable application architecture
+- Cloud architecture and AWS services
 - Making simpler solutions
 
 ## Connect
