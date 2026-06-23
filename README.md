@@ -1,8 +1,8 @@
 # Subham Chakraborty
 
-**Senior Backend Engineer | Platform & Cloud-Native Systems | Node.js, Kubernetes**
+**Senior Backend Engineer · TypeScript / Node.js · Microservices & Cloud-Native Systems**
 
-Backend engineer with 6+ years of experience building and operating production systems. Core focus on designing APIs, backend services, and cloud-native infrastructure that can scale, fail safely, and be deployed with confidence.
+Backend engineer with 7+ years building and running production systems, mostly in TypeScript and Node.js with plenty of hands-on PHP and Laravel along the way. I like taking complex, distributed problems end to end — designing event-driven microservices around Kafka and RabbitMQ, keeping them reliable on AWS and Kubernetes, and tuning performance where it actually matters. I've owned services ranging from payroll and authentication to applicant-assessment platforms, looking after their APIs, data, deployments, and everything it takes to keep them healthy in production.
 
 Technical Lead at [Voyantt Consultancy Services](https://www.linkedin.com/company/voyantt/) · Kolkata, West Bengal, India
 
@@ -10,39 +10,48 @@ Technical Lead at [Voyantt Consultancy Services](https://www.linkedin.com/compan
 
 ## Skills
 
-- **Backend:** Node.js, NestJS, Laravel, PHP
-- **APIs & Architecture:** REST APIs, Microservices, Background Workers
-- **Databases:** MySQL, PostgreSQL, MongoDB
-- **Cloud & DevOps:** AWS (EKS), Docker, Kubernetes, CI/CD Pipelines
-- **Frontend:** JavaScript, HTML5, CSS3
-- **Tools:** Git
+- **Languages:** TypeScript / JavaScript (Node.js), Golang, Python, PHP
+- **Frameworks:** NestJS, Express, FastAPI, Laravel
+- **Databases:** PostgreSQL, MySQL, MongoDB, Redis
+- **Cloud & DevOps:** AWS (EKS, ECS, EC2, Lambda, RDS, ElastiCache, SQS, SES, MSK), Firebase (Auth, Firestore), Docker, Kubernetes, CI/CD, GitHub Actions
+- **Messaging & Streaming:** Apache Kafka, RabbitMQ, Inngest, AWS SQS
+- **Frontend & Mobile:** Vue.js, Apache Cordova, Bootstrap, AmplitudeJS
+- **Architecture:** REST APIs, Microservices, Event-Driven Systems
 
 ## Experience
 
-**Technical Lead** — Voyantt Consultancy Services *(Mar 2025 – Present)*
-- Led backend architecture and delivery for production systems built with NestJS, Laravel, MySQL, MongoDB, and PostgreSQL
-- Designed and enforced backend standards around API design, error handling, and environment configuration
-- Owned deployment workflows and production readiness, including containerization and Kubernetes-based environments
-- Mentored developers through code reviews and architectural discussions
+**Technical Lead** — Voyantt Consultancy Services Pvt Ltd *(Feb 2022 – Present)*
+- Designed and led a microservices platform across NestJS/TypeScript and Laravel/PHP, connecting services through Kafka and RabbitMQ over PostgreSQL, MySQL, MongoDB, and Redis, running on AWS EKS with zero-downtime CI/CD pipelines built from scratch
+- Owned the authentication and authorization service end to end (session- and token-based auth) for the whole platform
+- Built the payroll system — a self-running scheduler for recurring batches and a Redis-backed reconciliation engine — integrated with a timesheet service so logged hours turn into accurate payments automatically
+- Built an assessment service (Laravel, MongoDB, Redis) that walks applicants through assessments one at a time and updates or rejects applications automatically based on results
+- Used Redlock for exactly-once queue jobs across EKS pods, and cut a critical query's runtime by 97% with smarter indexing, restructuring, and caching
+- Mentored other developers on backend design, cleaner code, and production readiness
 
-**Senior Software Developer** — Voyantt Consultancy Services *(Feb 2024 – Mar 2025)*
-- Built and maintained backend services deployed on AWS EKS, handling containerized workloads and CI/CD pipelines
-- Designed backend APIs and background workers with a focus on scalability, retries, and graceful failure handling
+**Backend Developer** — KRP IT Solutions Pvt. Ltd. *(Dec 2020 – Jan 2022)*
+- Built a multi-tenant School ERP (a separate MySQL database per school) and a TypeScript app for the Indian Railways loco-pilot rulebook, clearing a bottleneck by moving deeply nested MongoDB sub-rules into a parent-child model per rule for efficient rule search
+- Built B2B and B2C marketplaces for kids' garments (Laravel, MySQL, Redis on AWS EC2/RDS/ElastiCache) plus a cross-platform Vue.js + Cordova mobile app shipped to the Play Store and App Store
+- Handled production deployments and post-release fixes, and set up CI/CD pipelines with GitHub Actions
 
-**Software Developer** — Voyantt Consultancy Services *(Feb 2022 – Jan 2024)*
-- Developed backend services using Laravel, Node.js, and JavaScript supporting business-critical workflows
-- Implemented REST APIs, authentication, and third-party API integrations for production applications
+**Full-Stack Developer** — Freelance *(Sep 2019 – Nov 2020)*
+- Delivered backend projects end to end for small businesses, including Dockerized API backends and real-time WebSocket servers on Socket.IO
+- Built a cross-platform music player with Vue.js, Cordova, Firebase (Auth, Firestore), and AmplitudeJS
+- Secured session cookies on a legacy PHP app and redesigned its landing page with Bootstrap
 
-**Software Engineer** — KRP Solutions *(Dec 2020 – Jan 2022)*
+**Backend Developer** — Software Sales & Development, Kolkata *(May 2019 – Aug 2019)*
+- Maintained existing PHP platforms: a B2C app for photographers and a multi-country flight-compensation app with localized language support
+- Built an e-commerce backend with Node.js and MySQL
 
-**Freelance Web Developer** *(Sep 2019 – Nov 2020)*
+## Projects
 
-**PHP Developer** — Software Sales and Development *(May 2019 – Aug 2019)*
+- **[IJIEMR Academic Journal](https://ijiemr.org/)** — refreshed the landing page with Bootstrap and secured the legacy PHP app's session cookies
+- **[AweSong Music Player](https://play.google.com/store/apps/details?id=in.awesong.twa&hl=en_IN)** — cross-platform music player (Vue.js, Cordova, Firebase, AmplitudeJS), published on Google Play
+- **[KidCity](https://kidcity.shop/)** — B2B/B2C kids' garments marketplace (Laravel, MySQL, Redis on AWS EC2/RDS/ElastiCache) with a Vue.js + Cordova mobile app
+- **[ClaimFlights](https://claimflights.com/)** — multi-country flight-compensation platform with localized language support
 
 ## Education
 
-**BCA, Computer/Information Technology Administration and Management**
-Tripura University, Agartala
+**BCA — Tripura University, Agartala** *(2018)* · CGPA 7.82
 
 ## Certifications
 
