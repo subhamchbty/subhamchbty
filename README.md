@@ -1,30 +1,8 @@
-```console
-$ whoami
-subham — backend engineer, event-driven systems in Go
-
-$ cat ./about.txt
-I build production-ready systems that survive production-level loads.
-Jobs that run exactly once. Batch runs that reconcile to the cent.
-Queries taken from "just slow" to 97% faster.
-The correctness and reliability that only show up when real traffic hits.
-
-$ ls ./stack/
-go   node.js   python   docker   kubernetes   aws   postgresql   mongodb
-
-$ cat ./languages.txt
-primary   → go
-fluent    → typescript / node.js
-when-fits → python
-
-$ ./contact --links
-linkedin   https://www.linkedin.com/in/subhamchbty/
-website    https://subhamchakraborty.com
-email      subhamchakraborty81@gmail.com
-
-$ _
-```
-
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/subhamchbty/subhamchbty/main/assets/hero.svg" alt="subham.service — backend engineer, distributed systems in Go" width="760" />
+
+&nbsp;
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -34,5 +12,11 @@ $ _
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+&nbsp;
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subhamchbty/)
+[![Website](https://img.shields.io/badge/Website-36BCF7?style=flat-square&logo=safari&logoColor=white)](https://subhamchakraborty.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:subhamchakraborty81@gmail.com)
 
 </div>

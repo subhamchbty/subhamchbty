@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" role="img" aria-label="subham.service — backend engineer, distributed systems in Go">
+  <defs>
+    <style>
+      .l { opacity: 0; transform: translateY(6px); animation: rise .45s cubic-bezier(.2,.7,.3,1) forwards; }
+      @keyframes rise { to { opacity: 1; transform: translateY(0); } }
+
+      .cmd { clip-path: inset(0 100% 0 0); animation: type 1s steps(34) forwards; }
+      @keyframes type { to { clip-path: inset(0 0 0 0); } }
+
+      .caret { opacity: 0; animation: show .01s .95s forwards, blink 1s 1s step-end infinite; }
+      @keyframes show { to { opacity: 1; } }
+      @keyframes blink { 50% { opacity: 0; } }
+
+      .beat { animation: beat 1.8s ease-in-out 1.2s infinite; transform-origin: center; }
+      @keyframes beat { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+
+      .d1 { animation-delay: 1.15s; }
+      .d2 { animation-delay: 1.45s; }
+      .d3 { animation-delay: 1.80s; }
+      .d4 { animation-delay: 2.05s; }
+      .d5 { animation-delay: 2.30s; }
+      .d6 { animation-delay: 2.60s; }
+      .d7 { animation-delay: 2.85s; }
+      .d8 { animation-delay: 3.10s; }
+      .d9 { animation-delay: 3.35s; }
+
+      text { font-size: 16.5px; }
+      .dim   { fill: #6e7681; }
+      .txt   { fill: #c9d1d9; }
+      .green { fill: #3fb950; }
+      .cyan  { fill: #56d4dd; }
+      .go    { fill: #00ADD8; }
+      .label { fill: #56d4dd; font-weight: 700; letter-spacing: 1px; }
+    </style>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="758" height="428" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="758" height="41" rx="12" fill="#161b22"/>
+  <rect x="1" y="30" width="758" height="12" fill="#161b22"/>
+  <line x1="1" y1="42" x2="759" y2="42" stroke="#30363d"/>
+  <circle cx="26" cy="21" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="21" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="21" r="6" fill="#27c93f"/>
+  <text x="380" y="26" text-anchor="middle" class="dim" font-size="14">subham — systemctl status</text>
+
+  <!-- command (typewriter) -->
+  <g class="cmd">
+    <text x="28" y="80"><tspan class="green">$</tspan><tspan class="txt" dx="8">systemctl status subham.service</tspan></text>
+  </g>
+  <rect class="caret" x="352" y="66" width="9" height="18" fill="#3fb950"/>
+
+  <!-- status line -->
+  <g class="l d1">
+    <circle class="beat" cx="34" cy="112" r="6" fill="#3fb950"/>
+    <text x="50" y="118" class="txt" font-weight="700">subham.service</text>
+    <text x="732" y="118" text-anchor="end" class="green" font-weight="700">active (running)</text>
+  </g>
+
+  <!-- subtitle -->
+  <g class="l d2">
+    <text x="28" y="148" class="dim">backend engineer</text>
+    <text x="196" y="148" class="dim">·</text>
+    <text x="212" y="148" class="dim">distributed systems</text>
+    <text x="404" y="148" class="dim">·</text>
+    <text x="420" y="148" class="go" font-weight="700">go</text>
+  </g>
+
+  <!-- pipeline -->
+  <g class="l d3"><text x="28" y="196" class="label">▸ pipeline</text></g>
+  <g class="l d4">
+    <text x="52" y="226">
+      <tspan class="dim">events</tspan>
+      <tspan class="cyan" dx="6">─▶</tspan>
+      <tspan class="txt" dx="6">[ broker ]</tspan>
+      <tspan class="cyan" dx="6">─▶</tspan>
+      <tspan class="txt" dx="6">[ workers ]</tspan>
+      <tspan class="cyan" dx="6">─▶</tspan>
+      <tspan class="green" dx="6">(datastore)</tspan>
+    </text>
+  </g>
+  <g class="l d5"><text x="52" y="250" class="dim" font-size="14">exactly-once · on every pod</text></g>
+
+  <!-- guarantees -->
+  <g class="l d6"><text x="28" y="296" class="label">▸ guarantees</text></g>
+  <g class="l d7"><text x="52" y="326"><tspan class="green">✓</tspan><tspan class="txt" dx="10">jobs run exactly once, across every pod</tspan></text></g>
+  <g class="l d8"><text x="52" y="354"><tspan class="green">✓</tspan><tspan class="txt" dx="10">batch runs reconcile to the cent</tspan></text></g>
+  <g class="l d9"><text x="52" y="382"><tspan class="green">✓</tspan><tspan class="txt" dx="10">hot-path queries cut by 97%</tspan></text></g>
+</svg>
