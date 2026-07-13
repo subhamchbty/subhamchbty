@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/subhamchbty/subhamchbty/main/assets/hero.svg" alt="subham.service — backend engineer, distributed systems in Go" width="760" />
+<img src="https://raw.githubusercontent.com/subhamchbty/subhamchbty/main/assets/hero.svg" alt="Subham Chakraborty — backend engineer, distributed systems in Go" width="760" />
 
 &nbsp;
 
